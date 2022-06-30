@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+  width: 0;
+}
 body {
   font-family: sans-serif;
 }
@@ -49,10 +51,6 @@ body {
 #slider {
   width: 100%;
   height: 700px;
-  background: url("../img/Home-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: #fff;
   position: relative;
 }
@@ -60,7 +58,9 @@ body {
   position: absolute;
   top: 120px;
   left: 120px;
+  transition: all 1s linear;
 }
+
 #slider h2 {
   max-width: 800px;
   font-size: 70px;
