@@ -14,8 +14,8 @@ const sliderItems = [
   },
   {
     img: "./img/home-slider-03.webp",
-    title: "We're Your One-Stop Destination for That!",
-    desc: "We are dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "WE ARE QUALIFIED    <br/> & PROFESSIONAL",
+    desc: "Sed elit semper sit amet cotusima udin vitae quam akal akalelit quam, iacoamet udin vitave nibh. the at akalelit magna akal akalsemorpe elit quam, akalelit nascetur ridiculus mus. Proin ullamcorper risus vitae erat gravida, sed podui tincidunt iaculis sed semper sit iaculis sed iaculis...",
   },
 ];
 
@@ -24,7 +24,7 @@ function changeSlider(index) {
   slider.removeAttribute("style");
   slider.setAttribute(
     "style",
-    `background:url('${sliderItems[index].img}');background-size:cover;background-repeat:no-repeat;background-position:center;transition:background 1s linear;`
+    `background:url('${sliderItems[index].img}');background-size:cover;background-repeat:no-repeat;background-position:center;transition:all 1s linear;`
   );
   sliderTitle.innerHTML = `${sliderItems[index].title}`;
 }
